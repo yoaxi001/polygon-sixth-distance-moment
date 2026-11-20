@@ -1,5 +1,9 @@
 # Minimum sixth distance moment of centrally symmetric polygons
 
+**中心对称凸多边形的距离六阶矩最小化。** 本仓库在明确假设 `PolygonDiskComparison` 下形式化证明目标不等式及等号分类。关键词：正多边形、六次距离矩、随机点距离、几何不等式、Lean 4。
+
+**Formalization status:** conditional on the polygonal disk-overlap comparison; see the verification scope below.
+
 Among centrally symmetric convex polygons of area one with a fixed number of sides, the regular polygon minimizes the expected sixth power of the distance between two independent uniform points. Equality holds exactly for its rotations and translations.
 
 [中文证明说明](README.zh-CN.md) · [Lean theorem](Equality.lean#L41) · [数学课题目录](https://github.com/yoaxi001/math-projects)
